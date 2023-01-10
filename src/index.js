@@ -4,8 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Declaring a variable that stores all components. 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // Strict mode is used to trigger or catch errors
   <React.StrictMode>
     <App />
   </React.StrictMode>
