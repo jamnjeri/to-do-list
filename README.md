@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+### Tasks Performed
+- A branch called jamila-dev was created and is where the below tasks were performed:
+
+        [x] A components folder within src was created.
+
+        [x] A views folder within src was created.
+
+        [x] A home component within the views folder was created.
+
+        [x] A to-do’s list component within the component folder was created.
+
+        [x] A to-do item component within the component folder was created.
+
+        [x] The to-do list and to-do item components were exported within the home component.
