@@ -1,6 +1,9 @@
 function ToDoItem() {
     return (
-        <div>ToDoItem</div>
+        <div>
+            <h3>Learn about React</h3>
+            <p>Lorem ipsum  </p>
+        </div>
     );
 }
 
