@@ -1,10 +1,14 @@
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
 import ToDoList from "../components/ToDoList"
 
 function Home(){
     return(
-        <div className="Home">
+        <>
+            <NavBar />
             <ToDoList />
-        </div>
+            <Footer />
+        </>
     );
 }
 
