@@ -1,3 +1,13 @@
+:root {
+  --colorOne: #3b28cc;
+  --colorTwo: #2667ff;
+  --colorThree: #3f8efc;
+  --colorFour: #87bfff;
+  --colorFive: #add7f6;
+  --colorSix: #ffffff;
+  --colorSeven: #111111;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +15,87 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--colorFive);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Navbar Styles */
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--colorTwo);
+  color: var(--colorSix);
+  overflow: hidden;
+}
+
+form {
+  background: var(--colorFour);
+  width: 500px;
+  margin: 0 auto;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+/* Form input fields */
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+/* Form labels */
+form label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Form submit button */
+form input[type="submit"] {
+  width: 25%;
+  background: var(--colorSix);
+  color: var(--colorOne);
+  font-weight: bold;
+  font-size: 16px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+/* Form submit button hover effect */
+form input[type="submit"]:hover {
+  background-color: var(--colorTwo);
+  color: var(--colorSix);
+}
+
+/* Footer Styles */
+
+/* Footer container */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--colorTwo);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
 }

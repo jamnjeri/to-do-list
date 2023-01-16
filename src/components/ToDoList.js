@@ -5,7 +5,6 @@ function ToDoList() {
     return (
         < >
             <ToDoItem />
-            <ToDoItem />
         </>  
     );
 }
